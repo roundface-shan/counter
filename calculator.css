@@ -1,0 +1,90 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	width: 270px;
+}
+#div1{
+	top: 120px;
+	left: 100px;
+	position: absolute;
+}
+#div2{
+	height: 40px;
+}
+#div5{
+	width: 300px;
+	top: 205px;
+	right: 100px;
+	position: absolute;
+	border-top: 1px solid;
+	border-color: gray;
+}
+
+input[type="button"]{
+	width: 50px;
+	height: 35px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	font-size: 20px;
+	border: hidden;
+}
+input[type="text"]{
+	width: 224px;
+	text-align: right;
+	background: #fff;
+	border: 1px solid;
+	height: 32px;
+	overflow: scroll;
+	font-size: 18px;
+	color: black;
+	padding-right: 5px;
+/* 	box-sizing: border-box; */
+}
+input[type="button"]:hover{
+	background-color: darkorange;
+	border: 2px solid;
+	border-color: orange;
+}
+.history{
+	width: 228px;
+	white-space: pre-line;
+	border: hidden;
+	text-align: right;
+	color: gray;
+	font-style: italic;
+/* 	font-weight: bold; */
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.now{
+	width: 228px;
+	white-space: pre-line;
+	border: hidden;
+	text-align: right;
+	color: darkorange;
+	font-style: italic;
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-size: 15px;
+	resize: none;
+}
+#qa:hover{
+	background-image: url(https://img.soogif.com/0IQdIE28UmlM7MBZE4MEKzck3hwLxrog.gif);
+	background-size: 50px 35px;
+	color: transparent;
+	border: hidden;
+}
+.qa_help{
+	width: 270px;
+	height: 300px;
+	border: hidden;
+	margin-bottom: 5px;
+	font-size: 15px;
+	resize: none;
+	line-height: 2em;
+	overflow: visible;
+	margin-top: 10px;
+	background-color: transparent;
+}
